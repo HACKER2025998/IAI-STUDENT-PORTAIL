@@ -1,0 +1,12 @@
+# Réduit le contexte de build et empêche d'envoyer les données privées au moteur Docker.
+.git
+.env
+**/node_modules
+**/.nuxt
+**/.output
+**/bin
+**/obj
+**/*.db*
+**/keys
+**/storage
+ops/certs

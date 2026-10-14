@@ -1,0 +1,9 @@
+<!-- L'icône vectorielle reste lisible à toutes les tailles sans dépendre d'une image externe. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Le fond reprend le vert institutionnel choisi pour le portail. -->
+  <rect width="512" height="512" rx="100" fill="#174c44"/>
+  <!-- Le cadre doré distingue l'application dans les écrans d'accueil mobiles. -->
+  <rect x="70" y="70" width="372" height="372" rx="70" fill="#dcb967"/>
+  <!-- Le sigle est un élément vectoriel natif et non une copie du logo des photographies. -->
+  <text x="256" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="145" fill="#174c44">IAI</text>
+</svg>

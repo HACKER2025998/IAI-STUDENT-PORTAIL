@@ -1,0 +1,899 @@
+/* Les variables regroupent les couleurs et espacements du portail. */
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #203a38;
+  background: #f5f7f7;
+  font-synthesis: none;
+  --green: #174c44;
+  --muted: #7a8d8b;
+  --line: #e4eae8;
+  --gold: #dcb967;
+}
+/* Le modèle border-box inclut les bordures dans les dimensions des éléments. */
+* {
+  box-sizing: border-box;
+}
+/* Les éléments de base partagent des tailles et couleurs cohérentes. */
+body {
+  margin: 0;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+a.button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--green);
+  padding: 10px 14px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+button:hover,
+a.button:hover {
+  background: #edf4f0;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+button.primary {
+  background: var(--green);
+  color: white;
+  border-color: var(--green);
+}
+button.primary:hover {
+  background: #21655a;
+}
+button.text-button {
+  border: 0;
+  background: transparent;
+  padding: 8px 0;
+}
+button.icon-button {
+  padding: 7px 12px;
+  font-size: 23px;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+/* Les champs possèdent des libellés toujours visibles et suffisamment d'espace tactile. */
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+input,
+select,
+textarea {
+  border: 1px solid #d9e2df;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  color: #203a38;
+  width: 100%;
+  min-width: 0;
+}
+textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+input[type="file"] {
+  font-size: 12px;
+  padding: 5px;
+}
+form {
+  display: grid;
+  gap: 20px;
+}
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+h1 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-bottom: 9px;
+}
+h2 {
+  font-size: 18px;
+  letter-spacing: -0.4px;
+}
+small {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.muted {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.small {
+  font-size: 12px;
+}
+.eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #5c8278;
+  margin-bottom: 12px;
+}
+/* La connexion sépare le récit institutionnel du formulaire pratique. */
+.login-layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+}
+.login-story {
+  background: var(--green);
+  color: white;
+  padding: 55px 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+.login-story:after {
+  content: "";
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border: 1px solid #ffffff16;
+  border-radius: 50%;
+  right: -340px;
+  top: 32%;
+  box-shadow:
+    0 0 0 70px #ffffff05,
+    0 0 0 140px #ffffff04;
+}
+.login-story h1 {
+  font-size: clamp(48px, 5vw, 78px);
+  line-height: 1.1;
+  margin: 30px 0;
+}
+.login-story h1 em {
+  font-style: normal;
+  color: var(--gold);
+}
+.login-story p {
+  line-height: 1.8;
+  max-width: 380px;
+  color: #c2d7d1;
+}
+.login-story .eyebrow {
+  color: var(--gold);
+}
+.login-story small {
+  color: #a4c4bb;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 12px;
+  line-height: 1.45;
+  letter-spacing: 0.8px;
+  font-weight: 650;
+}
+.brand-mark {
+  height: 47px;
+  width: 47px;
+  background: #dcb967;
+  border-radius: 12px;
+  color: #173e37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.login-form {
+  align-self: center;
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+}
+.login-form h2 {
+  font-size: 29px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.login-form form {
+  margin: 35px 0 14px;
+}
+.login-form form button {
+  justify-content: space-between;
+  padding: 15px;
+}
+/* La navigation reste lisible sur les écrans de bureau. */
+.workspace {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  min-height: 100vh;
+}
+.sidebar {
+  background: #fff;
+  border-right: 1px solid var(--line);
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+.sidebar .brand {
+  padding: 0 8px 30px;
+  color: var(--green);
+}
+.sidebar-caption {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #99aaa5;
+  padding: 14px 12px;
+  margin: 0;
+}
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow: auto;
+}
+.sidebar nav button {
+  border: 0;
+  justify-content: flex-start;
+  font-size: 12px;
+  color: #738681;
+  padding: 12px;
+  text-align: left;
+  background: transparent;
+  white-space: normal;
+}
+.sidebar nav button.active {
+  background: #eaf2ed;
+  color: #174c44;
+}
+.nav-icon {
+  font-size: 18px;
+  width: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+.sidebar-bottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: auto;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+}
+.sidebar-bottom strong {
+  word-break: break-all;
+}
+.sidebar-bottom button {
+  border: 0;
+  margin-left: auto;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #eee8d7;
+  color: #5c6046;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+/* Le contenu est fluide et les tableaux restent dans leur propre zone de défilement. */
+.main-content {
+  padding: 0 38px 50px;
+  min-width: 0;
+  max-width: 1600px;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 78px;
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+  color: #91a09b;
+}
+.topbar b {
+  color: #4b645b;
+  font-weight: 500;
+}
+.topbar > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.year-pill {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 8px 13px;
+  color: #546d62;
+}
+.page-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 33px 0 27px;
+}
+.page-heading .eyebrow {
+  margin-bottom: 9px;
+}
+.page-heading p.muted {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.date-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #93a19b;
+}
+.panel {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 22px;
+  min-width: 0;
+}
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+.panel-heading h2 {
+  margin-bottom: 0;
+}
+.panel-heading > div:last-child {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.compact {
+  padding: 16px 20px;
+}
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+}
+.toolbar label {
+  flex: 1;
+  min-width: 150px;
+}
+.toolbar > input,
+.toolbar > select {
+  width: auto;
+  flex: 1;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-top: 1px solid #edf1ef;
+  padding: 18px 0;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+.list-item > div {
+  flex: 1;
+  min-width: 180px;
+}
+.list-item p {
+  margin: 8px 0;
+  color: #738681;
+  font-size: 12px;
+}
+.list-item code {
+  font-size: 11px;
+  overflow-wrap: anywhere;
+  color: #607871;
+}
+.tile-icon {
+  height: 37px;
+  width: 37px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #edf4ef;
+  color: #437b63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+}
+.badge {
+  font-size: 10px;
+  background: #f2f5f2;
+  color: #6c8174;
+  border: 1px solid #e8ede7;
+  padding: 6px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.badge.success {
+  color: #287a58;
+  background: #e9f6ed;
+}
+.empty {
+  text-align: center;
+  padding: 40px 15px;
+  color: #91a19b;
+  font-size: 13px;
+}
+.notice {
+  padding: 14px 18px;
+  background: #faf4e6;
+  color: #7c6840;
+  border: 1px solid #e9dcc0;
+  border-radius: 9px;
+  font-size: 12px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.notice.error {
+  background: #fff0ee;
+  color: #a44336;
+  border-color: #f1d0cb;
+}
+.table-wrap {
+  overflow: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin: 12px 0;
+}
+th {
+  text-align: left;
+  font-weight: 600;
+  color: #8c9c93;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  padding: 13px 12px;
+  border-bottom: 1px solid var(--line);
+}
+td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #eef2ef;
+  color: #50695c;
+}
+td button {
+  padding: 6px 9px;
+  font-size: 10px;
+  margin: 2px;
+}
+tr.unit-row {
+  background: #f5f8f5;
+}
+tr.unit-row td {
+  color: #274f40;
+}
+.inactive {
+  opacity: 0.5;
+}
+.result-total {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  color: var(--green);
+}
+.result-total strong {
+  font-size: 28px;
+}
+.result-total small {
+  display: inline;
+  font-size: 12px;
+}
+.result-total span {
+  font-size: 12px;
+}
+.curriculum details {
+  margin-top: 16px;
+}
+.curriculum summary {
+  cursor: pointer;
+  font-weight: 650;
+  font-size: 13px;
+  padding: 10px;
+}
+/* L'accueil donne une vue synthétique sans inventer de statistiques. */
+.welcome-card {
+  background: #164b42;
+  color: white;
+  padding: 32px 36px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+  min-height: 228px;
+}
+.welcome-card > div:first-child {
+  position: relative;
+  z-index: 1;
+  max-width: 650px;
+}
+.welcome-chip {
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  color: #d4caa1;
+}
+.welcome-card h2 {
+  font-size: 29px;
+  margin: 18px 0 12px;
+}
+.welcome-card p {
+  font-size: 12px;
+  color: #b7d0c5;
+  line-height: 1.8;
+  max-width: 550px;
+}
+.welcome-card button {
+  background: #e6c783;
+  border: 0;
+  color: #2c4739;
+  margin-top: 6px;
+  font-size: 11px;
+}
+.welcome-art {
+  color: #c3d5b23b;
+  font-size: 180px;
+  line-height: 0.8;
+  margin-right: 20px;
+  position: relative;
+  min-width: 170px;
+  transform: rotate(-12deg);
+}
+.welcome-art span {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  transform: rotate(12deg);
+  font-size: 31px;
+  letter-spacing: 4px;
+  color: #d2c697;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.stats-grid article {
+  background: white;
+  border: 1px solid var(--line);
+  padding: 24px;
+  border-radius: 11px;
+}
+.stats-grid article > span {
+  font-size: 9px;
+  color: #83958b;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+.stats-grid strong {
+  display: block;
+  font-size: 32px;
+  letter-spacing: -1px;
+  margin: 14px 0 7px;
+  color: #254b3d;
+}
+.stats-grid small {
+  font-size: 10px;
+}
+.two-columns {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 22px;
+}
+.quick-actions {
+  display: flex;
+  gap: 12px;
+}
+.quick-actions button {
+  flex: 1;
+}
+/* Les fenêtres empêchent une validation involontaire et supportent les longs formulaires. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: #0c251c70;
+  backdrop-filter: blur(4px);
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.modal {
+  background: #fff;
+  border-radius: 15px;
+  max-width: 660px;
+  width: 100%;
+  padding: 30px;
+  max-height: 90vh;
+  overflow: auto;
+  box-shadow: 0 25px 100px #0b211a40;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+.modal pre {
+  font-size: 12px;
+  background: #f4f7f4;
+  padding: 20px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1.8;
+  border-radius: 9px;
+}
+.qr-panel {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.qr-panel img {
+  width: 210px;
+  height: 210px;
+}
+.presence-code {
+  font-size: 35px;
+  letter-spacing: 4px;
+  color: var(--green);
+}
+.scanner {
+  max-width: 100%;
+  max-height: 400px;
+  background: #000;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+/* Les petites fenêtres passent à une navigation horizontale et des cartes empilées. */
+@media (max-width: 1050px) {
+  .workspace {
+    grid-template-columns: 195px minmax(0, 1fr);
+  }
+  .main-content {
+    padding: 0 20px 30px;
+  }
+  .sidebar {
+    padding: 25px 10px;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+  .welcome-art {
+    display: none;
+  }
+}
+/* Les téléphones conservent toutes les fonctionnalités avec des zones tactiles adaptées. */
+@media (max-width: 700px) {
+  .login-layout {
+    grid-template-columns: 1fr;
+  }
+  .login-story {
+    padding: 30px;
+    min-height: 280px;
+  }
+  .login-story h1 {
+    font-size: 38px;
+    margin: 22px 0;
+  }
+  .login-story p:not(.eyebrow),
+  .login-story small {
+    display: none;
+  }
+  .login-form {
+    padding: 35px 25px;
+  }
+  .workspace {
+    display: block;
+  }
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+  .sidebar .brand {
+    padding: 0 0 15px;
+  }
+  .sidebar-caption,
+  .sidebar-bottom {
+    display: none;
+  }
+  .sidebar nav {
+    flex-direction: row;
+    gap: 5px;
+    overflow: auto;
+  }
+  .sidebar nav button {
+    flex-shrink: 0;
+    padding: 10px;
+    font-size: 11px;
+  }
+  .nav-icon {
+    display: none;
+  }
+  .main-content {
+    padding: 0 15px 25px;
+  }
+  .topbar {
+    min-height: 62px;
+  }
+  .topbar > span {
+    display: none;
+  }
+  .topbar > div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .page-heading {
+    margin: 25px 0;
+  }
+  .date-label {
+    display: none;
+  }
+  .welcome-card {
+    padding: 25px;
+  }
+  .welcome-card h2 {
+    font-size: 25px;
+  }
+  .stats-grid {
+    gap: 10px;
+  }
+  .stats-grid article {
+    padding: 18px;
+  }
+  .stats-grid article > span {
+    font-size: 8px;
+  }
+  .panel {
+    padding: 18px;
+  }
+  .panel-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .list-item {
+    gap: 10px;
+  }
+  .qr-panel {
+    flex-direction: column;
+  }
+  .overlay {
+    padding: 12px;
+  }
+  .modal {
+    padding: 22px;
+  }
+  .modal-actions {
+    flex-wrap: wrap;
+  }
+  .toolbar > * {
+    width: 100%;
+  }
+  .toolbar label {
+    min-width: 100%;
+  }
+  .result-total {
+    gap: 12px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+}
+/* L'impression masque les commandes tout en conservant le contenu lisible. */
+@media print {
+  .sidebar,
+  .topbar,
+  .toolbar,
+  button,
+  .overlay {
+    display: none !important;
+  }
+  .workspace {
+    display: block;
+  }
+  .main-content {
+    padding: 0;
+  }
+  .panel {
+    break-inside: avoid;
+    border: 0;
+  }
+  .page-heading {
+    margin: 10px 0;
+  }
+}
+/* Les cases permettent de choisir plusieurs parcours ou permissions sans manipuler du JSON. */
+.checklist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+/* Les contrôles restent groupés avec leur libellé métier. */
+.checklist label {
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  gap: 7px;
+}
+/* La case conserve une taille native plutôt que la largeur des champs texte. */
+.checklist input {
+  width: auto;
+}
+/* Le tableau de programme demande plus de place que les formulaires courts. */
+.programme-modal {
+  max-width: 1100px;
+}
+/* Les colonnes horaires sont compactes tout en conservant les libellés accessibles. */
+.programme-modal td input {
+  min-width: 65px;
+  padding: 8px;
+}
+/* Le libellé d'une matière reste lisible lors de l'édition de ses coefficients. */
+.programme-modal td:nth-child(2) input {
+  min-width: 200px;
+}
+/* Les unités successives sont séparées visuellement dans l'éditeur de version. */
+.programme-modal article {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}

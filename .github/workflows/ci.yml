@@ -1,0 +1,51 @@
+# La CI compile les deux applications et exécute les tests métier et les scénarios HTTP.
+name: Vérifier le portail IAI
+# Chaque modification poussée ou proposée est vérifiée sans publier de serveur.
+on:
+  push:
+  pull_request:
+# Le workflow n'a besoin que de lire le code du dépôt.
+permissions:
+  contents: read
+# Toutes les données scolaires de test restent dans cette machine éphémère.
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      # Récupère les sources proposées.
+      - uses: actions/checkout@v4
+      # Installe le SDK et le runtime ASP.NET utilisés par le backend.
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      # Installe le moteur JavaScript de l'interface.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      # Vérifie les calculs sur le véritable code compilé.
+      - run: dotnet run --project tests/UnitTests
+      # Installe exactement les versions verrouillées des dépendances frontend.
+      - run: npm ci --prefix frontend
+      # Vérifie que tous les composants Vue respectent leurs types.
+      - run: npm run typecheck --prefix frontend
+      # Construit les artefacts frontend de production.
+      - run: npm run build --prefix frontend
+      # Installe Chromium et ses bibliothèques pour les vrais relevés PDF.
+      - run: backend/bin/Debug/net10.0/.playwright/node/linux-x64/node backend/bin/Debug/net10.0/.playwright/package/cli.js install --with-deps chromium
+      # Lance un serveur avec une base SQLite vierge, exécute les scénarios puis l'arrête.
+      - name: Workflows de scolarité et sécurité
+        env:
+          ASPNETCORE_ENVIRONMENT: Development
+          Bootstrap__Password: LocalTestOnly2026!
+          Authentication__RateLimit: '100'
+        run: |
+          dotnet backend/bin/Debug/net10.0/backend.dll --urls http://127.0.0.1:5080 > /tmp/iai-api.log 2>&1 &
+          portal_test_pid=$!
+          trap 'kill "$portal_test_pid"' EXIT
+          for attempt in $(seq 1 40); do
+            if curl -fsS http://127.0.0.1:5080/health > /dev/null; then break; fi
+            sleep 1
+          done
+          python3 tests/integration.py

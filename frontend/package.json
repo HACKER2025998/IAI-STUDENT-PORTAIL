@@ -1,0 +1,23 @@
+{
+  "name": "iai-student-portal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 0.0.0.0",
+    "build": "nuxt build",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@zxing/browser": "^0.1.5",
+    "nuxt": "^4.0.0",
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/qrcode": "^1.5.5",
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.0",
+    "vue-tsc": "^3.0.0"
+  }
+}

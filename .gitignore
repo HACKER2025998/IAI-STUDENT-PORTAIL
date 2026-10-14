@@ -1,0 +1,18 @@
+# Les secrets, données personnelles et sorties générées ne sont jamais versionnés.
+.env
+*.db
+*.db-shm
+*.db-wal
+backend/keys/
+backend/storage/
+keys/
+storage/
+ops/certs/*.pem
+**/bin/
+**/obj/
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+frontend/.data/
+frontend/node_modules/.cache/
+__pycache__/

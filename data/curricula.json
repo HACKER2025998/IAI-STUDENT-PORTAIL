@@ -1,0 +1,2606 @@
+[
+  {
+    "id": "5ccd06e0-84ce-4303-977d-a9890878c38e",
+    "name": "L1 TRONC_COMMUN ITI — photos 2026",
+    "version": "2026-photo",
+    "level": "L1",
+    "speciality": "TRONC_COMMUN",
+    "track": "ITI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "APPROVED",
+    "notes": [
+      "Le code imprimé « TOTAL SEM » est conservé pour Sport."
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "ues": [
+          {
+            "id": "7ddb9a36-5631-4a23-ac37-b1e70b25a5a3",
+            "code": "APR_S1",
+            "name": "Algorithme et Programmation",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "b9f2dce1-8ff5-42a7-8471-efcb0217ab03",
+                "code": "IAL_1",
+                "name": "Initiation à l’algorithmique",
+                "cm": 15,
+                "td": 10,
+                "tp": 20,
+                "coefficient": 4
+              },
+              {
+                "id": "a6fff9fe-0aff-4afd-a321-2fd12b140c8c",
+                "code": "LAC_1",
+                "name": "Langage C",
+                "cm": 10,
+                "td": 0,
+                "tp": 25,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "85cc33a2-e644-4b47-8fc8-82c3d71ca5df",
+            "code": "ARC_S1",
+            "name": "Architectures",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "e3923676-f9cc-4564-b2f9-3ae2442440bd",
+                "code": "AMA_1",
+                "name": "Architecture et Maintenance",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 4
+              },
+              {
+                "id": "00a50c50-9c14-41fd-81c0-6361c70cc5b6",
+                "code": "ELN_1",
+                "name": "Électronique Numérique",
+                "cm": 15,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "d50d7813-0d34-448d-8c5e-bfed2d008bad",
+            "code": "BMA_S1",
+            "name": "Bases Mathématiques",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "aa5e82c9-cb64-4c76-bf2d-4c4d3e5e828b",
+                "code": "MDI_1",
+                "name": "Mathématiques Discrètes",
+                "cm": 15,
+                "td": 15,
+                "tp": 5,
+                "coefficient": 3
+              },
+              {
+                "id": "cd1076c3-61d8-4cd0-93a5-192c45ba9086",
+                "code": "ANM_1",
+                "name": "Analyse Mathématique",
+                "cm": 15,
+                "td": 15,
+                "tp": 5,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "f67c506a-709c-4441-9e7e-c9923e542bac",
+            "code": "PMO_S1",
+            "name": "Prise en main de l’Outil Informatique",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "3616ec66-4057-4e74-b0fc-9c06ed93024c",
+                "code": "LOU_1",
+                "name": "Suites IC3 de Microsoft",
+                "cm": 10,
+                "td": 10,
+                "tp": 20,
+                "coefficient": 3
+              },
+              {
+                "id": "7eb20ff5-2f01-48db-babc-d7ee4415abab",
+                "code": "ILI_1",
+                "name": "Initiation à GNU / LINUX",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "19fdb70b-6931-44eb-8699-c6ddcc9cb397",
+            "code": "COM_S1",
+            "name": "Communication de Base",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "70001448-d10b-41e3-aec3-95d0aa7fee3b",
+                "code": "ANG_1",
+                "name": "Anglais Informatique",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "583fe21e-2d71-40d3-9769-7530b0c83cba",
+                "code": "EEO_1",
+                "name": "Expressions Écrites et Orales",
+                "cm": 10,
+                "td": 20,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "ues": [
+          {
+            "id": "70e37af8-c6ec-4612-8e45-cf54ee163e8f",
+            "code": "CAP_S2",
+            "name": "Conception et Application",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "dcda20c2-e686-432e-a4fb-2ea46193163b",
+                "code": "IPW_2",
+                "name": "Initiation à la Programmation Web",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "00f603d2-7e68-4407-82a2-a22d8f69622a",
+                "code": "IPO_2",
+                "name": "Initiation à la Programmation Objet",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 3
+              },
+              {
+                "id": "927913f7-3a6b-4b18-aac7-cc2aeb500d61",
+                "code": "CSD_2",
+                "name": "Conception et Implémentation des SD",
+                "cm": 10,
+                "td": 15,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "af9c8cf7-292b-4f38-8d70-465c8edd234c",
+            "code": "FRE_S2",
+            "name": "Initiation aux Réseaux",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "125e301c-f05b-45f2-97fb-88d2af5cb10b",
+                "code": "RTA_2",
+                "name": "Réseaux et Technologie CISCO CCNA 1 a",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "c0923c38-97f9-443d-8fd2-015330e22e76",
+                "code": "RTB_2",
+                "name": "Réseaux et Technologie CISCO CCNA 1 b",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "8a241288-326c-4dd3-bedc-5e7cb43bff34",
+            "code": "BDO_S2",
+            "name": "Bases de Données",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "90d4fa0a-35cd-4281-aca7-f7c3828f563f",
+                "code": "IBD_2",
+                "name": "Initiation aux Bases de données",
+                "cm": 10,
+                "td": 10,
+                "tp": 5,
+                "coefficient": 4
+              },
+              {
+                "id": "c0ebf5c8-0bfc-41c0-8249-b4302690a28b",
+                "code": "PSQ_2",
+                "name": "Pratiques de SQL",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "262fa5fa-208d-4364-882e-a4c9c4c43c0d",
+            "code": "EGO_S2",
+            "name": "Économie et Gestion des Organisations",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "cfc412b2-1235-4348-82b4-99a4e5490f2a",
+                "code": "EEC_2",
+                "name": "Environnement Économique",
+                "cm": 10,
+                "td": 5,
+                "tp": 5,
+                "coefficient": 2
+              },
+              {
+                "id": "7656ea98-876b-4fc2-abe1-9861ad666c1f",
+                "code": "CGE_2",
+                "name": "Comptabilité Générale",
+                "cm": 15,
+                "td": 10,
+                "tp": 5,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "fe32602f-f846-4dfe-a0de-832dc6d589d8",
+            "code": "PPP_S2",
+            "name": "Projet Professionnel Personnalisé",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "60721d42-3e62-482f-8657-f10212be552d",
+                "code": "PRO_2",
+                "name": "Projet Professionnel",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "92f344df-c174-4e00-a530-865302f8eea4",
+                "code": "DIS_2",
+                "name": "Séminaire Thématique 1 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 1
+              },
+              {
+                "id": "876fd90e-c513-4904-ad36-140e31f93ec0",
+                "code": "TOTAL SEM",
+                "name": "Sport",
+                "cm": 5,
+                "td": 0,
+                "tp": 10,
+                "coefficient": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "a7711f6f-4a9d-43c3-8a41-e9276088a2f5",
+    "name": "L1 TRONC_COMMUN LPI — photos 2026",
+    "version": "2026-photo",
+    "level": "L1",
+    "speciality": "TRONC_COMMUN",
+    "track": "LPI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "APPROVED",
+    "notes": [
+      "Le code imprimé « TOTAL SEM » est conservé pour Sport."
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "ues": [
+          {
+            "id": "f1f7d79e-643a-4ed2-a327-e8274fc139f1",
+            "code": "APR_S1",
+            "name": "Algorithme et Programmation",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "ade66736-239d-41bf-89eb-528a3fa60ffc",
+                "code": "IAL_1",
+                "name": "Initiation à l’algorithmique",
+                "cm": 15,
+                "td": 10,
+                "tp": 20,
+                "coefficient": 4
+              },
+              {
+                "id": "2dc0894e-562c-4e50-9619-e060b8e1b039",
+                "code": "LAC_1",
+                "name": "Langage C",
+                "cm": 10,
+                "td": 0,
+                "tp": 25,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "78444035-ee26-4f84-9fb3-b0a01e9ff336",
+            "code": "ARC_S1",
+            "name": "Architectures",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "35eeb317-369a-4070-b5d9-ee8ffd362289",
+                "code": "AMA_1",
+                "name": "Architecture et Maintenance",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 4
+              },
+              {
+                "id": "79219fd9-3422-4a4f-9b3b-de12eafe6eb4",
+                "code": "ELN_1",
+                "name": "Électronique Numérique",
+                "cm": 15,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "cccd2621-3855-49b8-a5c5-4e23ca27588f",
+            "code": "BMA_S1",
+            "name": "Bases Mathématiques",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "9509affc-cdd4-4950-abda-2e2326377383",
+                "code": "MDI_1",
+                "name": "Mathématiques Discrètes",
+                "cm": 15,
+                "td": 15,
+                "tp": 5,
+                "coefficient": 3
+              },
+              {
+                "id": "c7136c2d-fa78-438c-9728-5caf349e79a0",
+                "code": "ANM_1",
+                "name": "Analyse Mathématique",
+                "cm": 15,
+                "td": 15,
+                "tp": 5,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "2a550bb4-02eb-4181-a15e-39f66fa40d51",
+            "code": "PMO_S1",
+            "name": "Prise en main de l’Outil Informatique",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "e36b8d98-b230-4809-bef3-95f7006ded36",
+                "code": "LOU_1",
+                "name": "Suites IC3 de Microsoft",
+                "cm": 10,
+                "td": 10,
+                "tp": 20,
+                "coefficient": 3
+              },
+              {
+                "id": "e8cc0505-fb34-4ddb-8f16-26cc9508df5d",
+                "code": "ILI_1",
+                "name": "Initiation à GNU / LINUX",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "145370c4-88f0-46b7-beaa-cc14f27cbd25",
+            "code": "COM_S1",
+            "name": "Communication de Base",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "aacfe3d5-b20b-4960-afe9-0bcd03fa7a7b",
+                "code": "ANG_1",
+                "name": "Anglais Informatique",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "42f196df-db1c-442d-a242-e77b4ebd2143",
+                "code": "EEO_1",
+                "name": "Expressions Écrites et Orales",
+                "cm": 10,
+                "td": 20,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "ues": [
+          {
+            "id": "207d98fe-aaec-4dc1-acac-b899aa36e99b",
+            "code": "CAP_S2",
+            "name": "Conception et Application",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "7d605edc-b40d-49a3-9b16-777a36786e9c",
+                "code": "IPW_2",
+                "name": "Initiation à la Programmation Web",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "71c473ce-785c-4c99-8090-5a2ac1b5a310",
+                "code": "IPO_2",
+                "name": "Initiation à la Programmation Objet",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 3
+              },
+              {
+                "id": "d86bbccc-1ed6-41ef-a9b5-63a2e9cc3ed2",
+                "code": "CSD_2",
+                "name": "Conception et Implémentation des SD",
+                "cm": 10,
+                "td": 15,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "991ba643-7bea-411c-b214-54cd40b2ecf0",
+            "code": "FRE_S2",
+            "name": "Initiation aux Réseaux",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "64f99e5d-ec65-4d68-849c-e91cc97186d1",
+                "code": "RTA_2",
+                "name": "Réseaux et Technologie CISCO CCNA 1 a",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "b959a887-7c43-4915-962c-4cf7df261b44",
+                "code": "RTB_2",
+                "name": "Réseaux et Technologie CISCO CCNA 1 b",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "6a8422ae-8317-4046-ad5b-00a776803a6a",
+            "code": "BDO_S2",
+            "name": "Bases de Données",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "29ec5972-d247-484d-a1f7-1775b90931aa",
+                "code": "IBD_2",
+                "name": "Initiation aux Bases de données",
+                "cm": 10,
+                "td": 10,
+                "tp": 5,
+                "coefficient": 4
+              },
+              {
+                "id": "ba9084ce-443c-492e-8080-ef6fd885e95c",
+                "code": "PSQ_2",
+                "name": "Pratiques de SQL",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "289fcba0-7abd-4485-b29a-0e990b90234b",
+            "code": "EGO_S2",
+            "name": "Économie et Gestion des Organisations",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "1223e3fa-fabd-430d-b307-c520e4b6a426",
+                "code": "EEC_2",
+                "name": "Environnement Économique",
+                "cm": 10,
+                "td": 5,
+                "tp": 5,
+                "coefficient": 2
+              },
+              {
+                "id": "dbdc36e6-647b-416b-ad5a-45ab157cc7d0",
+                "code": "CGE_2",
+                "name": "Comptabilité Générale",
+                "cm": 15,
+                "td": 10,
+                "tp": 5,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "d8b860ca-0dc9-4700-a2dc-3fe2c980b701",
+            "code": "PPP_S2",
+            "name": "Projet Professionnel Personnalisé",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "a2600590-3a39-464d-a6e8-06eb61c7aa33",
+                "code": "PRO_2",
+                "name": "Projet Professionnel",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "e16be64d-cd58-4d88-a423-1df08e92c7b0",
+                "code": "DIS_2",
+                "name": "Séminaire Thématique 1 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 1
+              },
+              {
+                "id": "491b6200-9edb-4c94-8255-1824b6249a87",
+                "code": "TOTAL SEM",
+                "name": "Sport",
+                "cm": 5,
+                "td": 0,
+                "tp": 10,
+                "coefficient": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "7d72418f-ad3c-4cdf-b3f0-7f90035d4f20",
+    "name": "L2 TRONC_COMMUN ITI — photos 2026",
+    "version": "2026-photo",
+    "level": "L2",
+    "speciality": "TRONC_COMMUN",
+    "track": "ITI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "APPROVED",
+    "notes": [],
+    "semesters": [
+      {
+        "number": 3,
+        "ues": [
+          {
+            "id": "4c15ac51-b00e-40d1-8d6d-1fa26f7b9c20",
+            "code": "MSI_S3",
+            "name": "Modélisation et Gestion des Systèmes d’Information",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "7bb46537-d7d0-4660-835a-b36d468911f7",
+                "code": "MER_3",
+                "name": "MSI : Approche Systémique MERISE",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "30867a0f-bde9-40ba-b7e2-04e82b947213",
+                "code": "AGI_3",
+                "name": "Méthodes AGILES",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "7c49dbef-535c-47c5-a87e-5e4763c323ea",
+                "code": "UML_3",
+                "name": "MSI : Approche Objet UML",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "148b0082-fc29-4f78-beb8-3752be636c92",
+            "code": "AUB_S3",
+            "name": "Administration et Utilisation des Bases de Données",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "d6b88745-5aa2-4b79-b9d2-c684cf26449a",
+                "code": "IBL_3",
+                "name": "Implémentation BD & Administrat. BD Libre",
+                "cm": 15,
+                "td": 15,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "02bcef5b-b5b8-4c24-804b-141337325def",
+                "code": "XWS_3",
+                "name": "XML et Web Service",
+                "cm": 0,
+                "td": 0,
+                "tp": 25,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "fed3e0e7-e5d6-495c-b227-c4ed6bc73ef4",
+            "code": "OMO_S3",
+            "name": "Outils Mathématiques et Optimisation",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "35c9850c-b240-4969-b350-f502bc8a8fb9",
+                "code": "PRO_3",
+                "name": "Probabilités et Statistiques",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "694ca2dc-c12c-4b89-af84-a16d8193b989",
+                "code": "TRO_3",
+                "name": "Théorie des Graphes & Recherche Opérationnelle et Optimisation",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "6b33610a-a29a-4b44-a0d0-ac27d8c1d0b7",
+                "code": "ALI_3",
+                "name": "Algèbre Linéaire",
+                "cm": 15,
+                "td": 10,
+                "tp": 5,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "2fc85f0c-4d8a-4d5f-ba6d-436f663d45c1",
+            "code": "SEC_S3",
+            "name": "Réseaux et Sécurité",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "f7505b46-7ae1-418b-9304-6cfd437b735f",
+                "code": "CRY_3",
+                "name": "Cryptographie",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "c8952d0a-9fc0-4e3e-bc9d-41b7769e7692",
+                "code": "RTC_3",
+                "name": "Réseaux et Technologie CISCO CCNA 2",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "87a503e4-5f9f-4135-9022-7f5858cc327a",
+                "code": "SCI_3",
+                "name": "Sécurité Informatique",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "fa1740f2-9aea-4cb2-8d6d-5274a47bc8dd",
+            "code": "PAV_S3",
+            "name": "Programmation Avancée 1",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "9d3769b2-e5ab-4341-9721-bd56a183ce34",
+                "code": "PW2_3",
+                "name": "Programmation Web II (PHP)",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "640d363c-035b-414d-be95-10529fb90cb7",
+                "code": "POD_3",
+                "name": "Plateforme et Outils de Développement (Python)",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "6715cb54-9911-4659-9a33-edc2e113fc23",
+                "code": "POO_3",
+                "name": "Programmation Orientée Objet (JAVA)",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "ues": [
+          {
+            "id": "77b5d012-b20f-4588-a4c8-711f1dc24936",
+            "code": "CEX_S4",
+            "name": "Communication Expert",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "816dd6ee-778d-4aa4-af68-22c14534d6e4",
+                "code": "ANS_4",
+                "name": "Anglais Scientifique",
+                "cm": 20,
+                "td": 5,
+                "tp": 5,
+                "coefficient": 2
+              },
+              {
+                "id": "df4e0448-9aa7-4ba0-8444-76fcea08f61b",
+                "code": "TEC_4",
+                "name": "Techniques de Communication",
+                "cm": 0,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "5c7ceccf-85d2-4ab9-9c29-183cc8ddb1e1",
+                "code": "RDS_4",
+                "name": "Rédaction Scientifique",
+                "cm": 10,
+                "td": 5,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "34337381-c518-4b98-876a-2562029e99b8",
+            "code": "Main_S4",
+            "name": "Maintenance Avancée",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "70745f0f-7ff6-4202-ab3d-89c94ada73eb",
+                "code": "MI2_4",
+                "name": "Maintenance Informatique Niveau II",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "4ab101a4-b304-4b0b-a1d6-f8bcff43b426",
+                "code": "EAI_4",
+                "name": "Électronique Appliquée à l’informatique",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "eb9c7b8f-8953-496d-9dde-c35e2e0aa358",
+            "code": "SSP_S4",
+            "name": "Systèmes de stockage et Programmation",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "d1a4352c-e8fa-4c67-afe3-a6c9c1d6a737",
+                "code": "TGR_4",
+                "name": "Programmation Mobile",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "fe1a1994-eccd-4d3a-9f50-e53cd769e174",
+                "code": "PRC_4",
+                "name": "Programmation C# (WPF, ASP.NET)",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "f5f11e41-5580-41ad-943f-8ac40afba384",
+                "code": "ROO_4",
+                "name": "Cloud Computing",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "0f896754-daf8-4752-94c7-2463118494d7",
+            "code": "EGO_S4",
+            "name": "Économie et Gestion des Organisations",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "de7897d2-675d-4b0c-b927-67c9d94be61a",
+                "code": "TME_4",
+                "name": "TIC et Management de l’Entreprise",
+                "cm": 15,
+                "td": 0,
+                "tp": 5,
+                "coefficient": 2
+              },
+              {
+                "id": "ca2814a4-8040-4421-8fff-33084466fb93",
+                "code": "DTI_4",
+                "name": "Droit des TIC",
+                "cm": 15,
+                "td": 5,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "b6792a87-9599-45f3-9a52-8a3f4107992f",
+            "code": "SPS_S4",
+            "name": "Sport et Séminaire",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "3f9b05c3-6ed4-442c-9290-d9e9ec64be01",
+                "code": "SPO_4",
+                "name": "Sport",
+                "cm": 0,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 1
+              },
+              {
+                "id": "8642c8ea-6c3e-4fc6-8e63-0af84f7c81af",
+                "code": "STD_4",
+                "name": "Séminaire Thématique 2 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 1
+              }
+            ]
+          },
+          {
+            "id": "2e3e1517-cc08-44a0-a266-0720015177e4",
+            "code": "STE_4",
+            "name": "Stage d’Entreprise",
+            "credits": 12,
+            "ecs": [
+              {
+                "id": "903abe86-45bb-4024-ac81-0659bade949c",
+                "code": "STA_4",
+                "name": "Projet (Stage)",
+                "cm": 0,
+                "td": 0,
+                "tp": 120,
+                "coefficient": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "4a1c9c48-f6a8-4440-ae28-7b7b92a55102",
+    "name": "L2 TRONC_COMMUN LPI — photos 2026",
+    "version": "2026-photo",
+    "level": "L2",
+    "speciality": "TRONC_COMMUN",
+    "track": "LPI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "APPROVED",
+    "notes": [],
+    "semesters": [
+      {
+        "number": 3,
+        "ues": [
+          {
+            "id": "b396c4ee-c62a-44ff-a042-5d37110e61f8",
+            "code": "MSI_S3",
+            "name": "Modélisation et Gestion des Systèmes d’Information",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "5fdf7e8d-98c5-4cb0-8605-61e53a884a66",
+                "code": "MER_3",
+                "name": "MSI : Approche Systémique MERISE",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "7b43fc2f-9dcc-4f8e-a31a-1d8e2d3e3a31",
+                "code": "AGI_3",
+                "name": "Méthodes AGILES",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "fc87fd28-6e59-4131-9c06-b771d50fc4a6",
+                "code": "UML_3",
+                "name": "MSI : Approche Objet UML",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "d6eecab0-ab83-4395-af0e-df8e0dd2bf03",
+            "code": "AUB_S3",
+            "name": "Administration et Utilisation des Bases de Données",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "c27f8cfc-cea1-40b1-8446-afabd5b452fe",
+                "code": "IBL_3",
+                "name": "Implémentation BD & Administrat. BD Libre",
+                "cm": 15,
+                "td": 15,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "99c422ab-e3bb-465b-9506-06fc9311af6b",
+                "code": "XWS_3",
+                "name": "XML et Web Service",
+                "cm": 0,
+                "td": 0,
+                "tp": 25,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "dc96ffda-5945-47be-9a78-7de18b1f6e26",
+            "code": "OMO_S3",
+            "name": "Outils Mathématiques et Optimisation",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "39e1154f-9353-4e29-9a21-7b835a5111e1",
+                "code": "PRO_3",
+                "name": "Probabilités et Statistiques",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "70857b06-87ce-4bd7-bfd0-33e842d92a25",
+                "code": "TRO_3",
+                "name": "Théorie des Graphes & Recherche Opérationnelle et Optimisation",
+                "cm": 20,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "c063fb40-dc50-472d-ba4b-2f3a855d0d72",
+                "code": "ALI_3",
+                "name": "Algèbre Linéaire",
+                "cm": 15,
+                "td": 10,
+                "tp": 5,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "3b96112c-5eac-4c62-a538-1bc8d5919c5b",
+            "code": "SEC_S3",
+            "name": "Réseaux et Sécurité",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "56f822dc-a9fe-414c-a941-af6075bd5c0a",
+                "code": "CRY_3",
+                "name": "Cryptographie",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "a6fa29fa-5ae6-4126-b0fe-7b46390a892b",
+                "code": "RTC_3",
+                "name": "Réseaux et Technologie CISCO CCNA 2",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "9bdc60b7-7d6e-4272-ab9d-7723f9266026",
+                "code": "SCI_3",
+                "name": "Sécurité Informatique",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "64c0a6d8-f5ee-4fd4-a4de-73280c4cf4b1",
+            "code": "PAV_S3",
+            "name": "Programmation Avancée 1",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "a253cecc-dde3-4954-8fd8-0d6e2191a666",
+                "code": "PW2_3",
+                "name": "Programmation Web II (PHP)",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "cdb62422-f482-454a-9c7e-9728dc8d032a",
+                "code": "POD_3",
+                "name": "Plateforme et Outils de Développement (Python)",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "3032a10f-1639-42ab-af93-c77b27eb22f8",
+                "code": "POO_3",
+                "name": "Programmation Orientée Objet (JAVA)",
+                "cm": 15,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "ues": [
+          {
+            "id": "3e1a900b-f4b2-4f57-8bff-19f2dcfbcc8b",
+            "code": "CEX_S4",
+            "name": "Communication Expert",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "fcb87a88-abd5-4009-a5e7-7922bc2ade9f",
+                "code": "ANS_4",
+                "name": "Anglais Scientifique",
+                "cm": 20,
+                "td": 5,
+                "tp": 5,
+                "coefficient": 2
+              },
+              {
+                "id": "04ef2930-ba3f-45bc-a5ce-01f5cd65bbfd",
+                "code": "TEC_4",
+                "name": "Techniques de Communication",
+                "cm": 0,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "118d2ed6-e996-4405-8c97-9a283d624e74",
+                "code": "RDS_4",
+                "name": "Rédaction Scientifique",
+                "cm": 10,
+                "td": 5,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "0f0a4e99-1f1c-4341-927d-fcf6e593d686",
+            "code": "Main_S4",
+            "name": "Maintenance Avancée",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "ad67a031-e567-4edf-94c9-338942f0d587",
+                "code": "MI2_4",
+                "name": "Maintenance Informatique Niveau II",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "da9a3e8e-07c6-47cd-9c3d-f772b9d527e6",
+                "code": "EAI_4",
+                "name": "Électronique Appliquée à l’informatique",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "176ad1ed-eb48-4451-9e3c-8ab0f78c7724",
+            "code": "SSP_S4",
+            "name": "Systèmes de stockage et Programmation",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "2ee22a2e-c890-4395-91e8-0368d6f6204b",
+                "code": "TGR_4",
+                "name": "Programmation Mobile",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "cf7223e8-7119-46e2-bf4d-05e1e304ebdf",
+                "code": "PRC_4",
+                "name": "Programmation C# (WPF, ASP.NET)",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "30d9b595-d536-4c20-9c9c-13a2aba78195",
+                "code": "ROO_4",
+                "name": "Cloud Computing",
+                "cm": 10,
+                "td": 5,
+                "tp": 15,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "77697f93-7f5a-4ba2-97b5-7d4acddad35a",
+            "code": "EGO_S4",
+            "name": "Économie et Gestion des Organisations",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "274862dc-a77e-43ee-b03a-9d2c20293929",
+                "code": "TME_4",
+                "name": "TIC et Management de l’Entreprise",
+                "cm": 15,
+                "td": 0,
+                "tp": 5,
+                "coefficient": 2
+              },
+              {
+                "id": "1d9a7c58-7c2d-4e6c-b9da-88b511c9b73f",
+                "code": "DTI_4",
+                "name": "Droit des TIC",
+                "cm": 15,
+                "td": 5,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "270fcfc9-1ab5-46cd-b407-fede7ff2e6d0",
+            "code": "SPS_S4",
+            "name": "Sport et Séminaire",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "1363dd24-8bd4-4989-b91d-bb1b50ca35c6",
+                "code": "SPO_4",
+                "name": "Sport",
+                "cm": 0,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 1
+              },
+              {
+                "id": "b5246079-8f84-4e8f-aa44-792dc1d99a1f",
+                "code": "STD_4",
+                "name": "Séminaire Thématique 2 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 1
+              }
+            ]
+          },
+          {
+            "id": "24df52de-27e4-4bfe-af61-adde03d5f29d",
+            "code": "STE_4",
+            "name": "Stage d’Entreprise",
+            "credits": 12,
+            "ecs": [
+              {
+                "id": "81aa0e67-d92f-4a09-8a7b-64b948b82410",
+                "code": "STA_4",
+                "name": "Projet (Stage)",
+                "cm": 0,
+                "td": 0,
+                "tp": 120,
+                "coefficient": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "e05b08bc-1b02-4dca-aace-1005db6d01a7",
+    "name": "L3 ASR ITI — photos 2026",
+    "version": "2026-photo",
+    "level": "L3",
+    "speciality": "ASR",
+    "track": "ITI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "DRAFT",
+    "notes": [
+      "Crédits UE absents sur la fiche ITI : validation institutionnelle nécessaire avant publication.",
+      "Code SPO_6 réutilisé pour Sport et Projet : identification par UUID. GLSI : PAV_S6 est imprimé au S5 et conservé."
+    ],
+    "semesters": [
+      {
+        "number": 5,
+        "ues": [
+          {
+            "id": "9faddccf-3e53-409f-8d36-9bbb30bec37e",
+            "code": "GES_S5",
+            "name": "Gestion des Systèmes",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "c3b75140-57cd-44b8-94d9-143c7ef371fa",
+                "code": "PRS_5",
+                "name": "Programmation Système",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "1254b397-e59d-4e95-91da-6534077a0ff4",
+                "code": "SEA_5",
+                "name": "Système d’Exploitation Avancé (Linux)",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "00eae173-23c5-4689-8e4a-6483257b673e",
+            "code": "TRA_S5",
+            "name": "Technologies Réseaux Avancées",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "53334f38-16ca-46ad-9264-defb72e90fe5",
+                "code": "RTC_5",
+                "name": "Réseaux et Technologie CISCO CCNA 3",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "da02a090-490e-4695-ae28-3ab66fad23df",
+                "code": "HCN_5",
+                "name": "Huawei Certification Network Association",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "50951215-603f-477a-b40d-662999d400e6",
+            "code": "GER_S5",
+            "name": "Gestion des Réseaux",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "5c80d3e8-7688-4c4f-95d5-3fb3a54d3f6e",
+                "code": "ASR_5",
+                "name": "Administration des Réseaux",
+                "cm": 15,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 3
+              },
+              {
+                "id": "62ce0bc9-1c3c-46b7-baf9-aaad684f9dd1",
+                "code": "ASS_5",
+                "name": "Administration des Systèmes",
+                "cm": 15,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "79b20a4d-dfc4-4400-9088-1cefe5beb1a4",
+            "code": "REE_S5",
+            "name": "Big Data et Sécurité",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "95ef772e-499c-4d87-b7d2-4f07f22944f0",
+                "code": "BGD_5",
+                "name": "Big Data",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "eab80c0c-f877-49a6-9439-aefeade69b19",
+                "code": "RT4_5",
+                "name": "Sécurité des Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "059d4e2e-f4a4-4dd2-a161-35a96b9764cb",
+            "code": "COM_S5",
+            "name": "Communication",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "a833dd8b-6d3f-41e3-8c67-d8b5d13b0035",
+                "code": "ANE_5",
+                "name": "Anglais Expert",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "a6f03991-b390-4b0e-97a8-b8c0aad670ef",
+                "code": "TOE_5",
+                "name": "Préparation au TOEIC",
+                "cm": 0,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 2
+              },
+              {
+                "id": "4729ec1f-0d52-40a7-a18f-b969bedc559e",
+                "code": "TEC_5",
+                "name": "Développement Personnel",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "ues": [
+          {
+            "id": "b0b9af1a-db38-4d29-ac26-4c56d5be4fd8",
+            "code": "DLA_S6",
+            "name": "Droit et Entreprenariat",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "40489598-1fe5-48cd-a9cf-06923e26f476",
+                "code": "CEN_6",
+                "name": "Création d’Entreprises",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "30d056be-3354-46f0-af90-dae0a51efd83",
+                "code": "DTR_6",
+                "name": "Droit du Travail",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "eb9e370c-43ea-45da-ab35-ecef05304f8e",
+            "code": "ARC_S6",
+            "name": "Architecture",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "4d5d1c23-fe96-4e81-bfc8-3a476af7325a",
+                "code": "MSR_6",
+                "name": "Modèle de Structuration des Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "1641c670-b9d7-40dc-8bda-20978b970696",
+                "code": "AAR_6",
+                "name": "Architectures Avancées des Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "4915da80-d92f-4687-86a5-eeaf14e3617f",
+            "code": "MIN_S6",
+            "name": "Management Informatique",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "480b336b-2dc1-40e2-aca3-4471d16acc71",
+                "code": "RMO_5",
+                "name": "Réseaux Mobiles",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "e1cfc6ec-8a52-4cac-811a-b353b3b9a77b",
+                "code": "FOP_5",
+                "name": "Fibre Optique",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "18dca508-78b6-4eef-a81a-2820d1246ae7",
+            "code": "ASM_S6",
+            "name": "Audit et Multimédia",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "5aad6269-8f9a-4ccb-ba04-fb2529e63720",
+                "code": "ASR_6",
+                "name": "Audit des Systèmes et Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "a2c50629-ea0c-4b79-9157-5d174604203b",
+                "code": "TMI_6",
+                "name": "Techniques Multimédias et Infographie",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "9605bb42-bedd-4143-9c91-af5c0aa54ad7",
+            "code": "SPD_S6",
+            "name": "Sport et Discipline",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "ae195ebe-f99f-4754-bed5-3d9245c2a701",
+                "code": "SPO_6",
+                "name": "Sport",
+                "cm": 0,
+                "td": 0,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "ad094338-920a-4821-82bc-b830d026e252",
+                "code": "STD_6",
+                "name": "Séminaire Thématique 3 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "d0626ea8-8d14-4922-a75d-74a4c8058ab3",
+            "code": "PFC_S6",
+            "name": "Projet de Fin de Cycle",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "ec3f2ca2-ca5b-4a59-865a-36b63c51d4fd",
+                "code": "SPO_6",
+                "name": "Projet de Fin de Formation",
+                "cm": 0,
+                "td": 0,
+                "tp": 120,
+                "coefficient": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL_TRACK_SPECIALITY",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "26887da5-ce57-4ed2-aa4f-a819f6f484f0",
+    "name": "L3 ASR LPI — photos 2026",
+    "version": "2026-photo",
+    "level": "L3",
+    "speciality": "ASR",
+    "track": "LPI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "APPROVED",
+    "notes": [
+      "Code SPO_6 réutilisé pour Sport et Projet : identification par UUID. GLSI : PAV_S6 est imprimé au S5 et conservé."
+    ],
+    "semesters": [
+      {
+        "number": 5,
+        "ues": [
+          {
+            "id": "8b115888-2055-4948-b68d-610ffc2f8757",
+            "code": "GES_S5",
+            "name": "Gestion des Systèmes",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "6e884430-a859-4c54-af43-430047924b9b",
+                "code": "PRS_5",
+                "name": "Programmation Système",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "71c616f2-0896-418c-8a4b-57d046b201e2",
+                "code": "SEA_5",
+                "name": "Système d’Exploitation Avancé (Linux)",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "09a53e42-9a42-4bd4-8b54-a8c146a2d865",
+            "code": "TRA_S5",
+            "name": "Technologies Réseaux Avancées",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "7d87a440-dc88-4150-a0fa-62c1c5e4956a",
+                "code": "RTC_5",
+                "name": "Réseaux et Technologie CISCO CCNA 3",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "a930b25b-9cd6-4e46-956f-e27252df8c4d",
+                "code": "HCN_5",
+                "name": "Huawei Certification Network Association",
+                "cm": 10,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "02e9a178-9c10-46f5-b8f6-2e7dacc813d2",
+            "code": "GER_S5",
+            "name": "Gestion des Réseaux",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "ff03dcb6-e8d4-433e-82f1-93d9325091f0",
+                "code": "ASR_5",
+                "name": "Administration des Réseaux",
+                "cm": 15,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 3
+              },
+              {
+                "id": "2e9f76b9-6b5e-41a5-b083-553829cd6954",
+                "code": "ASS_5",
+                "name": "Administration des Systèmes",
+                "cm": 15,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "257b9532-7237-4216-86fe-4d7091115a55",
+            "code": "REE_S5",
+            "name": "Big Data et Sécurité",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "67ecc2e1-7d09-42da-aee8-1b66703618d9",
+                "code": "BGD_5",
+                "name": "Big Data",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "2ac4297d-f694-4a53-9890-7a1a619ec3da",
+                "code": "RT4_5",
+                "name": "Sécurité des Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "e8b0d737-6921-48a6-94db-71b2a86c5986",
+            "code": "COM_S5",
+            "name": "Communication",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "05d5860e-a941-436e-974a-64f4d4c825f1",
+                "code": "ANE_5",
+                "name": "Anglais Expert",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "a237ec9b-18f2-4445-9ad7-37f99a856ab6",
+                "code": "TOE_5",
+                "name": "Préparation au TOEIC",
+                "cm": 0,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 2
+              },
+              {
+                "id": "0ac51fa1-894c-48b2-b340-4d31b325cd42",
+                "code": "TEC_5",
+                "name": "Développement Personnel",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "ues": [
+          {
+            "id": "2f1e46f0-a7ea-426c-b275-61c40dba83a9",
+            "code": "DLA_S6",
+            "name": "Droit et Entreprenariat",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "71a8e7eb-18aa-4314-ab44-209a07a3893a",
+                "code": "CEN_6",
+                "name": "Création d’Entreprises",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "007e6bd7-7971-4dc1-887b-2eeb2e169714",
+                "code": "DTR_6",
+                "name": "Droit du Travail",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "0e5cb508-88ed-45b6-89d7-7405e3f2baf7",
+            "code": "ARC_S6",
+            "name": "Architecture",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "3e1b5abe-7c2e-4fc9-a64f-f04731960fe6",
+                "code": "MSR_6",
+                "name": "Modèle de Structuration des Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "f4fd020a-dd9c-47ad-83f8-01bc8ca8d7c3",
+                "code": "AAR_6",
+                "name": "Architectures Avancées des Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "06b3d9cd-f0dc-4a1d-b2db-872d569807bb",
+            "code": "MIN_S6",
+            "name": "Management Informatique",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "3ba04c04-0d79-4788-8af5-3baa2ab48af2",
+                "code": "RMO_5",
+                "name": "Réseaux Mobiles",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "e0d90c84-059b-428c-bb50-f00f2995e501",
+                "code": "FOP_5",
+                "name": "Fibre Optique",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "51fbfdd6-f2de-41ea-8c3b-79631afbe889",
+            "code": "ASM_S6",
+            "name": "Audit et Multimédia",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "c4a65b7a-1138-416c-a717-102dfc482d03",
+                "code": "ASR_6",
+                "name": "Audit des Systèmes et Réseaux",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "7a5a0471-22f0-4426-be31-357abe20a331",
+                "code": "TMI_6",
+                "name": "Techniques Multimédias et Infographie",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "ae152fc8-8d61-4194-842e-0a922e44b9f7",
+            "code": "SPD_S6",
+            "name": "Sport et Discipline",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "dca07104-dde3-41d0-85d4-307660a048bb",
+                "code": "SPO_6",
+                "name": "Sport",
+                "cm": 0,
+                "td": 0,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "30316068-7b3d-4f1b-b3d5-90f5ad81d76f",
+                "code": "STD_6",
+                "name": "Séminaire Thématique 3 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "c4fd2df1-7414-47cb-863d-e2293677dc3e",
+            "code": "PFC_S6",
+            "name": "Projet de Fin de Cycle",
+            "credits": 15,
+            "ecs": [
+              {
+                "id": "6111120b-285a-4011-8329-1fabf8cf9d7b",
+                "code": "SPO_6",
+                "name": "Projet de Fin de Formation",
+                "cm": 0,
+                "td": 0,
+                "tp": 120,
+                "coefficient": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL_TRACK_SPECIALITY",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "8c5135e2-50da-47b7-a44a-f58f35e94678",
+    "name": "L3 GLSI ITI — photos 2026",
+    "version": "2026-photo",
+    "level": "L3",
+    "speciality": "GLSI",
+    "track": "ITI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "DRAFT",
+    "notes": [
+      "Crédits UE absents sur la fiche ITI : validation institutionnelle nécessaire avant publication.",
+      "Code SPO_6 réutilisé pour Sport et Projet : identification par UUID. GLSI : PAV_S6 est imprimé au S5 et conservé."
+    ],
+    "semesters": [
+      {
+        "number": 5,
+        "ues": [
+          {
+            "id": "53057d4c-4eb4-490b-99b3-83f2561e31a0",
+            "code": "ABD_S5",
+            "name": "Application des Bases de Données",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "49d8b2ee-0c26-4965-9fb4-4293ba57e95d",
+                "code": "SIG_5",
+                "name": "Système d’Information Géographique",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "5cacb574-b11f-44f7-840e-032ee0803208",
+                "code": "BDT_5",
+                "name": "Big Data (NoSQL, …)",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "c116089f-e695-4497-9feb-0f520af18ea2",
+                "code": "SAD_5",
+                "name": "Système d’Information d’Aide à la Décision",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "a91ef66c-13b6-4633-a95b-788e0299e230",
+            "code": "PAV_S6",
+            "name": "Programmation Avancée 2",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "e9cadb6f-6c0e-47f1-ad09-292c322238f7",
+                "code": "BDO_5",
+                "name": "Programmation JEE (SpringBoot, JSP, …)",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "f347e493-c705-4784-85b2-923b41d3e716",
+                "code": "SBD_5",
+                "name": "Programmation Mobile",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "65f3b093-4068-4e5a-b3da-4c3fe1ba2949",
+                "code": "BDR_5",
+                "name": "Programmation Distribuée (Python, Java, C++)",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "20306cd9-ab16-48ff-b628-b1dea43d14f7",
+            "code": "ABS_S5",
+            "name": "Administration Base de Données et Sécurité",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "4c07f300-bd4d-4167-8d63-1f03fec47667",
+                "code": "ORA_5",
+                "name": "Administration des BD Oracle",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "8d7cb478-6d30-4490-8a38-bebe59f2ca7e",
+                "code": "SQL_5",
+                "name": "Sécurité des Bases de Données",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "b73ad611-5300-4bb1-b0e3-c6fc4a1989d4",
+                "code": "MSQ_5",
+                "name": "Administration des BD SQL-Server",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "0dd58d1d-9aaa-454a-a013-9317428a2af7",
+            "code": "IAG_S5",
+            "name": "Intelligence Artificielle et Génie Logiciel",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "5e21b306-25dc-49d0-b575-4ee00350282b",
+                "code": "POD_5",
+                "name": "Introduction à l’Intelligence Artificielle",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "5db76c62-bf15-477c-a3d6-871eaef6fbdd",
+                "code": "AND_5",
+                "name": "Analyse de Données",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "a71fb211-b90f-4627-9019-a69622d7d80d",
+                "code": "IGL_5",
+                "name": "Introduction au Génie Logiciel",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "d0f4e33d-5ceb-4970-8c99-6a18db9b6779",
+            "code": "COM_S5",
+            "name": "Communication",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "9bacee24-c152-4290-9540-8801878e6451",
+                "code": "ANE_5",
+                "name": "Anglais Expert",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "2df71681-fb6a-4189-b24a-2bbfe0bf6827",
+                "code": "TOE_5",
+                "name": "Préparation au TOEIC",
+                "cm": 0,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 2
+              },
+              {
+                "id": "407ba173-94a9-4e1f-886c-6f19bfa70db6",
+                "code": "TEC_5",
+                "name": "Développement Personnel",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "ues": [
+          {
+            "id": "f95b6829-9123-40e3-91e7-331e1029693b",
+            "code": "DLA_S6",
+            "name": "Droit et Entreprenariat",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "0195cb95-92c8-43f9-98a4-9dffb2bedafc",
+                "code": "CEN_6",
+                "name": "Création d’Entreprises",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "53993ebd-3daa-4476-8815-ed3e8162f530",
+                "code": "DTR_6",
+                "name": "Droit du Travail",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "868aa103-029d-4ef4-9eef-5b02fa5d5cb4",
+            "code": "PAV_S6",
+            "name": "Programmation Avancée 3",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "c9e378bd-a592-41b7-aa65-20f296becd24",
+                "code": "POA_6",
+                "name": "Programmation O. O. Avancée (Django, Flask, …)",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "79abded7-5661-4e26-a2cb-72d98be8887c",
+                "code": "OPW_6",
+                "name": "Outils de Programmation Web (Laravel, NodeJS, …)",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "6cf964fe-fc3d-40df-b92e-c229afdf2359",
+            "code": "ALM_S6",
+            "name": "Audit et Multimédia",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "761296d8-7127-4d31-8180-82bc4187a23a",
+                "code": "ASI_6",
+                "name": "Audit des systèmes d’information",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "d75f1d2f-47c9-4349-a627-4278a18e4de7",
+                "code": "TMI_6",
+                "name": "Techniques Multimédias et Infographie",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "5c04d532-3a5d-4dd3-a514-5ae706e8e45a",
+            "code": "SPD_S6",
+            "name": "Sport et Discipline",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "a4427e20-b153-4262-be07-52672e276b61",
+                "code": "SPO_6",
+                "name": "Sport",
+                "cm": 0,
+                "td": 0,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "ee0281d2-c5eb-49a8-a115-cdef6f2e1451",
+                "code": "STD_6",
+                "name": "Séminaire Thématique 3 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "c09663b0-b34a-4782-8f73-a6660ea8db4c",
+            "code": "PFC_S6",
+            "name": "Projet de Fin de Cycle",
+            "credits": null,
+            "ecs": [
+              {
+                "id": "79f01fed-cc3c-48d4-8cca-1899f3aedfaa",
+                "code": "SPO_6",
+                "name": "Projet de Fin de Formation",
+                "cm": 0,
+                "td": 0,
+                "tp": 120,
+                "coefficient": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL_TRACK_SPECIALITY",
+    "tieMethod": "COMPETITION"
+  },
+  {
+    "id": "6f902997-7d69-41a5-891b-47dec2060c89",
+    "name": "L3 GLSI LPI — photos 2026",
+    "version": "2026-photo",
+    "level": "L3",
+    "speciality": "GLSI",
+    "track": "LPI",
+    "threshold": 10,
+    "annualMethod": "SEMESTER_EQUAL_WEIGHT",
+    "status": "APPROVED",
+    "notes": [
+      "Code SPO_6 réutilisé pour Sport et Projet : identification par UUID. GLSI : PAV_S6 est imprimé au S5 et conservé."
+    ],
+    "semesters": [
+      {
+        "number": 5,
+        "ues": [
+          {
+            "id": "a39d0b68-1e5c-4e6f-9cd7-4202eb77dcfe",
+            "code": "ABD_S5",
+            "name": "Application des Bases de Données",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "73ae08d4-7610-4ccc-b0cc-44e4fac979de",
+                "code": "SIG_5",
+                "name": "Système d’Information Géographique",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "dc003b8c-da2b-48a3-9a75-698c1b617fa9",
+                "code": "BDT_5",
+                "name": "Big Data (NoSQL, …)",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "2437c6f5-035e-4d49-8954-3d7973aacd51",
+                "code": "SAD_5",
+                "name": "Système d’Information d’Aide à la Décision",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "9cc992f9-7c2d-40a1-92a1-f27188892866",
+            "code": "PAV_S6",
+            "name": "Programmation Avancée 2",
+            "credits": 9,
+            "ecs": [
+              {
+                "id": "9c8a44c6-9ff5-4be5-9a63-9826f170185a",
+                "code": "BDO_5",
+                "name": "Programmation JEE (SpringBoot, JSP, …)",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "87fe486f-f182-4bc6-83a6-9fbabc0bff99",
+                "code": "SBD_5",
+                "name": "Programmation Mobile",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "5ba1e89e-fbd0-41c4-a9da-593aa8aec620",
+                "code": "BDR_5",
+                "name": "Programmation Distribuée (Python, Java, C++)",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "cc4af86e-7455-4370-8e6e-45ff079ed6a5",
+            "code": "ABS_S5",
+            "name": "Administration Base de Données et Sécurité",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "e6fcf0b2-cfd2-4476-acf9-21f91988940e",
+                "code": "ORA_5",
+                "name": "Administration des BD Oracle",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "768fc8e1-d833-4f88-b041-2d7e6d66fde1",
+                "code": "SQL_5",
+                "name": "Sécurité des Bases de Données",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "c76c66dd-a208-4da5-96c1-51b46d5a9357",
+                "code": "MSQ_5",
+                "name": "Administration des BD SQL-Server",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "acb3fc8e-272e-412b-9bab-24a7a28d8936",
+            "code": "IAG_S5",
+            "name": "Intelligence Artificielle et Génie Logiciel",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "8db8bdd4-34c9-4bc4-bfe8-165c0fc92671",
+                "code": "POD_5",
+                "name": "Introduction à l’Intelligence Artificielle",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "dcb33ff0-e0f2-4631-b2ae-5b0102901b46",
+                "code": "AND_5",
+                "name": "Analyse de Données",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              },
+              {
+                "id": "aa743344-2eb1-4ae7-92ac-8e4c5f797dbe",
+                "code": "IGL_5",
+                "name": "Introduction au Génie Logiciel",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "714d1106-94d2-428b-a3f5-d34e431a2334",
+            "code": "COM_S5",
+            "name": "Communication",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "0c24d0d4-9d75-40f6-a6bc-c5e804e60124",
+                "code": "ANE_5",
+                "name": "Anglais Expert",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "4fd4bea7-0f0b-4cb0-b3f6-3f30b5d48931",
+                "code": "TOE_5",
+                "name": "Préparation au TOEIC",
+                "cm": 0,
+                "td": 0,
+                "tp": 20,
+                "coefficient": 2
+              },
+              {
+                "id": "7e224d2f-ed38-41ea-a639-9868b842de9f",
+                "code": "TEC_5",
+                "name": "Développement Personnel",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "ues": [
+          {
+            "id": "64a510b9-a534-4fc0-8d05-4ee9348463cb",
+            "code": "DLA_S6",
+            "name": "Droit et Entreprenariat",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "e4a1515d-5fec-4127-aa40-2a7451ab0295",
+                "code": "CEN_6",
+                "name": "Création d’Entreprises",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              },
+              {
+                "id": "c790db15-38ef-4e3f-bac0-30238f0bad9a",
+                "code": "DTR_6",
+                "name": "Droit du Travail",
+                "cm": 10,
+                "td": 10,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "2a998781-c438-46c1-b603-9f81feb6f39c",
+            "code": "PAV_S6",
+            "name": "Programmation Avancée 3",
+            "credits": 6,
+            "ecs": [
+              {
+                "id": "08751c03-d23e-4f4f-82ac-57b380fa0077",
+                "code": "POA_6",
+                "name": "Programmation O. O. Avancée (Django, Flask, …)",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              },
+              {
+                "id": "b3239b76-2a29-40c5-9fdc-d3f0b29d78a2",
+                "code": "OPW_6",
+                "name": "Outils de Programmation Web (Laravel, NodeJS, …)",
+                "cm": 5,
+                "td": 10,
+                "tp": 15,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "aa498429-e257-48bb-8853-86a68fd24427",
+            "code": "ALM_S6",
+            "name": "Audit et Multimédia",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "ce991d5b-ce06-4bc5-b6b9-2cac1eeec759",
+                "code": "ASI_6",
+                "name": "Audit des systèmes d’information",
+                "cm": 10,
+                "td": 10,
+                "tp": 10,
+                "coefficient": 3
+              },
+              {
+                "id": "5097d67d-f696-4bcd-9079-fcee963201e8",
+                "code": "TMI_6",
+                "name": "Techniques Multimédias et Infographie",
+                "cm": 5,
+                "td": 5,
+                "tp": 10,
+                "coefficient": 3
+              }
+            ]
+          },
+          {
+            "id": "d2088466-4762-42f4-843b-ee0384f7297d",
+            "code": "SPD_S6",
+            "name": "Sport et Discipline",
+            "credits": 3,
+            "ecs": [
+              {
+                "id": "d8f88143-bde1-4675-a76d-1260ac76fe8a",
+                "code": "SPO_6",
+                "name": "Sport",
+                "cm": 0,
+                "td": 0,
+                "tp": 15,
+                "coefficient": 2
+              },
+              {
+                "id": "cb349e6a-8bdc-4a87-b060-e564084dcaff",
+                "code": "STD_6",
+                "name": "Séminaire Thématique 3 + Discipline",
+                "cm": 10,
+                "td": 0,
+                "tp": 0,
+                "coefficient": 2
+              }
+            ]
+          },
+          {
+            "id": "50261bda-6ed6-4ae4-8751-a4b5831874bd",
+            "code": "PFC_S6",
+            "name": "Projet de Fin de Cycle",
+            "credits": 15,
+            "ecs": [
+              {
+                "id": "53894534-8527-4e33-a8a3-b408fb0224b6",
+                "code": "SPO_6",
+                "name": "Projet de Fin de Formation",
+                "cm": 0,
+                "td": 0,
+                "tp": 120,
+                "coefficient": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rankingScope": "YEAR_LEVEL_TRACK_SPECIALITY",
+    "tieMethod": "COMPETITION"
+  }
+]

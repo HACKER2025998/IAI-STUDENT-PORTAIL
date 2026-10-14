@@ -1,0 +1,15 @@
+# Les règles de formatage rendent les exemples lisibles pour les étudiants.
+root = true
+# Tous les fichiers source utilisent UTF-8 et des fins de ligne Linux.
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+# Une instruction et un bloc C# par ligne facilitent l'explication pédagogique.
+[*.cs]
+indent_size = 4
+csharp_preserve_single_line_statements = false
+csharp_preserve_single_line_blocks = false
+csharp_new_line_before_open_brace = all
